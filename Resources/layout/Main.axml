@@ -25,30 +25,4 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/CallButton" />
-    <TextView
-        android:text="Email:"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/emailStaticText" />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/emailForm" />
-    <TextView
-        android:text="Password:"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/passwordStaticText" />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/passwordForm"
-        android:password="true" />
-    <Button
-        android:text="Login"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/loginButton" />
 </LinearLayout>

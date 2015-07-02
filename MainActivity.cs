@@ -24,36 +24,6 @@ namespace TestApp
             Button translateButton = FindViewById<Button>(Resource.Id.TranslateButton);
             Button callButton = FindViewById<Button>(Resource.Id.CallButton);
 
-            Button loginButton = FindViewById<Button>(Resource.Id.loginButton);
-            EditText emailForm = FindViewById<EditText>(Resource.Id.emailForm);
-            EditText passwordForm = FindViewById<EditText>(Resource.Id.passwordForm);
-
-            loginButton.Click += (object sender, EventArgs e) =>
-            {
-                if (emailForm.Text == null || passwordForm.Text == null)
-                {
-                    var missingInput = new AlertDialog.Builder(this)
-                        .SetTitle("Missing Input")
-                        .SetMessage("You must input both an email and a password.")
-                        .SetNeutralButton("OK", delegate
-                    {
-                        Finish();
-                    })
-                        .Show();
-                    //missingInput.GetButton((int)DialogButtonType.Positive).KeyPress += (object sender, EventArgs e) => { };
-                    return;
-                }
-                string urlParam = "?task=login&email=" + emailForm.Text + "&password=" + "passwordForm.Text";
-                AlertDialog debug = new AlertDialog.Builder(this)
-                    .SetMessage(url + urlParam)
-                    .SetPositiveButton("OK", delegate
-                    {
-                        Finish();
-                    })
-                    .Show();
-
-            };
-
             callButton.Enabled = false;
             string translatedNumber = string.Empty;
 

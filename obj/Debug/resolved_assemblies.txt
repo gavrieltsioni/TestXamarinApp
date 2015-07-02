@@ -1,1 +1,1 @@
-C:\Users\Gavriel\documents\visual studio 2013\Projects\TestApp\TestApp\obj\Debug\assemblies\TestApp.dll
+C:\Users\gtsioni\Documents\Visual Studio 2013\Projects\TestXamarinApp\obj\Debug\assemblies\TestApp.dll

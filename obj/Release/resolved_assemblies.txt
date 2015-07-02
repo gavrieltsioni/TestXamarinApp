@@ -1,0 +1,6 @@
+C:\Users\gtsioni\Documents\Visual Studio 2013\Projects\TestXamarinApp\obj\Release\assemblies\TestApp.dll
+C:\Users\gtsioni\Documents\Visual Studio 2013\Projects\TestXamarinApp\obj\Release\assemblies\Mono.Android.dll
+C:\Users\gtsioni\Documents\Visual Studio 2013\Projects\TestXamarinApp\obj\Release\assemblies\mscorlib.dll
+C:\Users\gtsioni\Documents\Visual Studio 2013\Projects\TestXamarinApp\obj\Release\assemblies\System.Core.dll
+C:\Users\gtsioni\Documents\Visual Studio 2013\Projects\TestXamarinApp\obj\Release\assemblies\System.dll
+C:\Users\gtsioni\Documents\Visual Studio 2013\Projects\TestXamarinApp\obj\Release\assemblies\System.Json.dll

@@ -2,8 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="TestApp.TestApp" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
 	<uses-sdk />
 	<application android:label="TestApp" android:icon="@drawable/Icon">
-    
-    <!--<activity android:name=".LoginActivity" 
+		<!--<activity android:name=".LoginActivity" 
               android:label="TestApp">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
@@ -13,7 +12,7 @@
     <activity android:name=".MainActivity" 
               android:label="TestApp">
     </activity>-->
-    
-  </application>
-	<uses-permission android:name="android.permission.CALL_PHONE" />  
+	</application>
+	<uses-permission android:name="android.permission.CALL_PHONE" />
+	<uses-permission android:name="android.permission.INTERNET" />
 </manifest>

@@ -11,3 +11,16 @@ C:\Users\Gavriel\Documents\Visual Studio 2013\Projects\TestApp\TestApp\obj\Relea
 C:\Users\Gavriel\Documents\Visual Studio 2013\Projects\TestApp\TestApp\obj\Release\res\drawable\icon.png
 C:\Users\Gavriel\Documents\Visual Studio 2013\Projects\TestApp\TestApp\obj\Release\R.cs.flag
 C:\Users\Gavriel\Documents\Visual Studio 2013\Projects\TestApp\TestApp\obj\Release\uploadflags.txt
+C:\Users\gtsioni\Documents\Visual Studio 2013\Projects\TestXamarinApp\bin\Release\TestApp.dll
+C:\Users\gtsioni\Documents\Visual Studio 2013\Projects\TestXamarinApp\bin\Release\TestApp.pdb
+C:\Users\gtsioni\Documents\Visual Studio 2013\Projects\TestXamarinApp\bin\Release\TestApp.TestApp.apk
+C:\Users\gtsioni\Documents\Visual Studio 2013\Projects\TestXamarinApp\bin\Release\TestApp.TestApp-Signed.apk
+C:\Users\gtsioni\Documents\Visual Studio 2013\Projects\TestXamarinApp\obj\Release\TestApp.dll
+C:\Users\gtsioni\Documents\Visual Studio 2013\Projects\TestXamarinApp\obj\Release\TestApp.pdb
+C:\Users\gtsioni\Documents\Visual Studio 2013\Projects\TestXamarinApp\obj\Release\android\bin\TestApp.TestApp.apk
+C:\Users\gtsioni\Documents\Visual Studio 2013\Projects\TestXamarinApp\obj\Release\res\layout\login.xml
+C:\Users\gtsioni\Documents\Visual Studio 2013\Projects\TestXamarinApp\obj\Release\res\layout\main.xml
+C:\Users\gtsioni\Documents\Visual Studio 2013\Projects\TestXamarinApp\obj\Release\res\values\strings.xml
+C:\Users\gtsioni\Documents\Visual Studio 2013\Projects\TestXamarinApp\obj\Release\res\drawable\icon.png
+C:\Users\gtsioni\Documents\Visual Studio 2013\Projects\TestXamarinApp\obj\Release\R.cs.flag
+C:\Users\gtsioni\Documents\Visual Studio 2013\Projects\TestXamarinApp\obj\Release\uploadflags.txt
