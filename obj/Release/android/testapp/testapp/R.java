@@ -15,14 +15,15 @@ public final class R {
         public static final int monoandroidsplash=0x7f020001;
     }
     public static final class id {
-        public static final int CallButton=0x7f06000b;
-        public static final int PhoneNumberText=0x7f060009;
-        public static final int TranslateButton=0x7f06000a;
+        public static final int CallButton=0x7f06000c;
+        public static final int PhoneNumberText=0x7f06000a;
+        public static final int TranslateButton=0x7f06000b;
         public static final int emailForm=0x7f060002;
         public static final int emailStaticText=0x7f060001;
         public static final int loginButton=0x7f060007;
         public static final int passwordForm=0x7f060005;
         public static final int passwordStaticText=0x7f060004;
+        public static final int responseText=0x7f060009;
         public static final int space1=0x7f060000;
         public static final int space2=0x7f060003;
         public static final int space3=0x7f060006;

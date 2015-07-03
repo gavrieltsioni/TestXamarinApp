@@ -63,14 +63,14 @@ namespace TestApp
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f06000b
-			public const int CallButton = 2131099659;
-			
-			// aapt resource value: 0x7f060009
-			public const int PhoneNumberText = 2131099657;
+			// aapt resource value: 0x7f06000c
+			public const int CallButton = 2131099660;
 			
 			// aapt resource value: 0x7f06000a
-			public const int TranslateButton = 2131099658;
+			public const int PhoneNumberText = 2131099658;
+			
+			// aapt resource value: 0x7f06000b
+			public const int TranslateButton = 2131099659;
 			
 			// aapt resource value: 0x7f060002
 			public const int emailForm = 2131099650;
@@ -86,6 +86,9 @@ namespace TestApp
 			
 			// aapt resource value: 0x7f060004
 			public const int passwordStaticText = 2131099652;
+			
+			// aapt resource value: 0x7f060009
+			public const int responseText = 2131099657;
 			
 			// aapt resource value: 0x7f060000
 			public const int space1 = 2131099648;

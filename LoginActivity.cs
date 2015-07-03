@@ -7,6 +7,7 @@ using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
+using System.Runtime.Serialization.Json;
 
 using Android.App;
 using Android.Content;
@@ -27,12 +28,14 @@ namespace TestApp
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-
+            var client = new HttpClient();
             SetContentView(Resource.Layout.login);
 
             Button loginButton = FindViewById<Button>(Resource.Id.loginButton);
             EditText emailForm = FindViewById<EditText>(Resource.Id.emailForm);
             EditText passwordForm = FindViewById<EditText>(Resource.Id.passwordForm);
+
+            TextView responseText = FindViewById<TextView>(Resource.Id.responseText);
           
             loginButton.Click += async (object sender, EventArgs e) => {
                 if (String.IsNullOrEmpty(emailForm.Text) || String.IsNullOrEmpty(passwordForm.Text))
@@ -44,50 +47,23 @@ namespace TestApp
                             Finish();
                         })
                         .Show();
-                    //missingInput.GetButton((int)DialogButtonType.Positive).KeyPress += (object sender, EventArgs e) => { };
                     return;
                 }
                 
                 string urlParam = "?task=login&email=" + emailForm.Text + "&password=" + passwordForm.Text;
 
-                JsonValue json = await get(urlParam);
-
-                AlertDialog debug = new AlertDialog.Builder(this)
-                    .SetMessage(json.ToString())
-                    .SetPositiveButton("OK", delegate
-                        {
-                            Finish();
-                        })
-                    .Show();
-                
-            };
-
-        }
-        private async Task<JsonValue> get(string urlParam)
-        {
-
-            HttpWebRequest request;
-            try
-            {
-                var targetUri = new Uri(url + urlParam);
-                request = (HttpWebRequest)HttpWebRequest.Create(targetUri);
-                request.ContentType = "application/json";
-                request.Method = "GET";
-            }
-            catch (Exception e)
-            {
-                return e.Message;
-            }
-
-
-            using (WebResponse response = await request.GetResponseAsync())
-            {
-                using (Stream stream = response.GetResponseStream())
+                String result = "";
+                try
                 {
-                    JsonValue jsonDoc = await Task.Run(() => JsonObject.Load(stream));
-                    return jsonDoc;
+                    result = await client.GetStringAsync(new Uri(url + urlParam));
                 }
-            }
-        }            
+                catch (Exception er)
+                {
+                    result = er.Message;
+                }
+
+                responseText.Text = result;       
+            };
+        }      
     }
 }

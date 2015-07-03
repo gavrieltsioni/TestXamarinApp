@@ -3,4 +3,4 @@ C:\Users\gtsioni\Documents\Visual Studio 2013\Projects\TestXamarinApp\obj\Releas
 C:\Users\gtsioni\Documents\Visual Studio 2013\Projects\TestXamarinApp\obj\Release\assemblies\mscorlib.dll
 C:\Users\gtsioni\Documents\Visual Studio 2013\Projects\TestXamarinApp\obj\Release\assemblies\System.Core.dll
 C:\Users\gtsioni\Documents\Visual Studio 2013\Projects\TestXamarinApp\obj\Release\assemblies\System.dll
-C:\Users\gtsioni\Documents\Visual Studio 2013\Projects\TestXamarinApp\obj\Release\assemblies\System.Json.dll
+C:\Users\gtsioni\Documents\Visual Studio 2013\Projects\TestXamarinApp\obj\Release\assemblies\System.Net.Http.dll
